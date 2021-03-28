@@ -1,0 +1,10 @@
+/* common */
+
+@import url('./style.css');
+/* content */
+
+@import url('./content.css');
+body {
+  background-image: url("../img/contact-background.jpg");
+  background-color: #ffffff;
+}

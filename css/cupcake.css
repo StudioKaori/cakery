@@ -1,0 +1,10 @@
+/* common */
+
+@import url('./style.css');
+/* product grid */
+
+@import url('./products.css');
+body {
+  background-image: url("../img/cupcake-bg.jpg");
+  background-color: #ffffff;
+}

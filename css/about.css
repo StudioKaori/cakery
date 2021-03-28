@@ -1,0 +1,14 @@
+/* common style */
+
+@import url('./style.css');
+/* content */
+
+@import url('./content.css');
+body {
+  background-image: url("../img/about-background.jpg");
+  background-color: #E4AEDF;
+}
+
+.content .content-wrapper {
+  grid-template-columns: 1fr;
+}

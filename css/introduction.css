@@ -1,0 +1,44 @@
+/* This styles introduction section. */
+
+.introduction {
+  text-align: center;
+  padding: 0;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 26px;
+}
+
+h1 span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header_textbox {
+  margin: 100px auto 50px auto;
+  width: 250px;
+}
+
+h1 img {
+  border-radius: 500px;
+  border: solid 10px #ffffff80;
+  height: 100px;
+  object-fit: cover;
+  vertical-align: top;
+  width: 100px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+@media (min-width: 750px) {
+  .body_wrapper {
+    margin: 50px auto;
+    width: 800px;
+  }
+  .introduction {
+    padding: 10px;
+  }
+}

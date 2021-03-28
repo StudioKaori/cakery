@@ -1,0 +1,43 @@
+.content h3 {
+  color: var(--accent-color);
+}
+
+.content .content-wrapper {
+  display: grid;
+}
+
+.content .content-wrapper article {
+  margin-bottom: 30px;
+}
+
+.content div img {
+  margin-top: 20px;
+  border-radius: var(--section-radius);
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content .content-wrapper span {
+  font-size: var(--font-S);
+}
+
+.content .date {
+  text-transform: uppercase;
+}
+
+/* Tablet */
+
+@media (min-width: 550px) {
+  .content .content-wrapper {
+    column-gap: 20px;
+  }
+}
+
+/* laptop */
+
+@media (min-width: 750px) {
+  .content .content-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
